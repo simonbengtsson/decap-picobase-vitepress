@@ -1,11 +1,10 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
 hero:
-  name: "Vitepress Example"
-  text: "With Decap CMS on Picobase"
-  tagline: Example of a Vitepress site with content editable with the Decap CMS installed to Picobase
+  name: Vitepress Example
+  text: With Decap CMS on Picobase
+  tagline: Example of a Vitepress site with content editable with the Decap CMS
+    installed to Picobase
   actions:
     - theme: brand
       text: Markdown Examples
@@ -13,7 +12,6 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
-
 features:
   - title: Feature A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -21,4 +19,6 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+title: Home
 ---
+Some home content
