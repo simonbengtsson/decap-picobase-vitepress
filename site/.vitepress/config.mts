@@ -19,5 +19,6 @@ export default withSidebar(
   }),
   {
     documentRootPath: "site",
+    useTitleFromFrontmatter: true,
   }
 );
