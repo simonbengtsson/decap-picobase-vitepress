@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "My Awesome Project",
   description: "A VitePress Site",
-  base: "/decap-picobase-vitepress",
+  base: "/decap-picobase-vitepress/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
