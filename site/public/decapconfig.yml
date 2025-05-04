@@ -2,10 +2,9 @@ backend:
   name: github
   branch: main
   repo: simonbengtsson/decap-picobase-vitepress
-
+  site_url: https://simonbengtsson.github.io/decap-picobase-vitepress
 media_folder: site/public/img
 public_folder: /img
-
 collections:
   - name: "site"
     label: "Site"
