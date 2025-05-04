@@ -5,6 +5,7 @@ export default defineConfig({
   title: "My Awesome Project",
   description: "A VitePress Site",
   base: "/decap-picobase-vitepress/",
+  srcExclude: ["readme.md"],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
