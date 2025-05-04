@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Example Vitepress site"
-  text: "Run on Github Pages, content editable with Decap CMS on Picobase"
-  tagline: Example of a Vitepress site content with the Decap CMS installed to Picobase
+  name: "Vitepress Example"
+  text: "With Decap CMS on Picobase"
+  tagline: Example of a Vitepress site with content editable with the Decap CMS installed to Picobase
   actions:
     - theme: brand
       text: Markdown Examples
