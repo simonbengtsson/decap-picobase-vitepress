@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Example Vitepress site"
+  text: "Run on Github Pages, content editable with Decap CMS on Picobase"
+  tagline: Example of a Vitepress site content with the Decap CMS installed to Picobase
   actions:
     - theme: brand
       text: Markdown Examples
@@ -22,4 +22,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
