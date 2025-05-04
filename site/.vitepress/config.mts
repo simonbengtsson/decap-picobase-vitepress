@@ -17,7 +17,5 @@ export default withSidebar(
       ],
     },
   }),
-  {
-    excludePattern: ["readme.md"],
-  }
+  {}
 );
