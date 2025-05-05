@@ -3,12 +3,12 @@ backend:
   branch: main
   repo: simonbengtsson/decap-picobase-vitepress
   site_url: https://simonbengtsson.github.io/decap-picobase-vitepress
-media_folder: site/public/img
+media_folder: docs/public/img
 public_folder: /img
 collections:
-  - name: "site"
-    label: "Site"
-    folder: "site"
+  - name: "docs"
+    label: "Docs"
+    folder: "docs"
     create: true
     slug: "{{slug}}"
     editor:
