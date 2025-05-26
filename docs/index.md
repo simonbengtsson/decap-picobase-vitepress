@@ -2,9 +2,9 @@
 layout: home
 hero:
   name: Vitepress Example
-  text: With Decap CMS on Picobase
+  text: With Decap CMS as Lumo app
   tagline: Example of a Vitepress site with content editable with the Decap CMS
-    installed to Picobase
+    installed as a Lumo app
   actions:
     - theme: brand
       text: Markdown Examples

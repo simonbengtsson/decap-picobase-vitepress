@@ -1,8 +1,7 @@
 backend:
-  name: github
+  name: lumo
   branch: main
-  repo: simonbengtsson/decap-picobase-vitepress
-  site_url: https://simonbengtsson.github.io/decap-picobase-vitepress
+  site_url: https://simonbengtsson.github.io/lumo-decap-vitepress
 media_folder: docs/public/img
 public_folder: /img
 collections:
