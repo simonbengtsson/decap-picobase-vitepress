@@ -4,15 +4,15 @@ import { withSidebar } from "vitepress-sidebar";
 // https://vitepress.dev/reference/site-config
 export default withSidebar(
   defineConfig({
-    title: "My Awesome Project",
-    description: "A VitePress Site",
-    base: "/decap-picobase-vitepress/",
-    srcExclude: ["readme.md"],
+    title: "Lumo Decap Vitepress",
+    description: "A VitePress site with Decap CMS as a Lumo app",
+    base: "/lumo-decap-vitepress/",
+    srcExclude: ["README.md"],
     themeConfig: {
       socialLinks: [
         {
           icon: "github",
-          link: "https://github.com/simonbengtsson/decap-picobase-vitepress",
+          link: "https://github.com/simonbengtsson/lumo-decap-vitepress",
         },
       ],
     },
