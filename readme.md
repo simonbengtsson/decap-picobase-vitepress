@@ -1,4 +1,4 @@
-# Example Vitepress site with Lumo Decap CMS
+# Vitepress with Decap CMS as Lumo app
 
 This is a sample repository to show how to deploy a Vitepress site on GitHub Pages while editing content with Decap CMS hosted as a Lumo app.
 
