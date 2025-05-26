@@ -21,4 +21,4 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 title: Home
 ---
-Some home content
+Some home content 56
