@@ -1,22 +1,18 @@
-# Vitepress on GitHub Pages with Picobase
+# Example Vitepress site with Lumo Decap CMS
 
-This is a sample repository to show how to deploy a Vitepress site on GitHub Pages using Picobase.
+This is a sample repository to show how to deploy a Vitepress site on GitHub Pages while editing content with Decap CMS hosted as a Lumo app.
 
-## How to Setup
+## Github Pages setup (with automatic deployment)
 
-- Create a new github repo
+- Create a new Github repo
 - Init a new Vitepress project
-- Add the github deploy workflow (see .github/workflows/deploy.yml)
+- Add the Github deploy workflow (see .github/workflows/deploy.yml)
 - Enable GitHub Pages in the Github repo settings
-- Update the base property in .vitepress/config.ts to match your repo name (e.g. base: /decap-picobase-vitepress/)
-- Add a decap config file to the public folder (see docs/public/decapconfig.yml). For now only verified to work with the github backend.
+- Update the base property in .vitepress/config.ts to match your repo name (e.g. base: /lumo-decap-vitepress/)
 - Push your changes and if things are working, you should see your site deployed to github pages (https://<your-username>.github.io/<your-repo-name>)
+- Optionally you can also setup a custom domain for your github pages site (see [Github docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)).
 
-## Picobase setup
+## Lumo setup
 
-- Install the decap cms app on picobase
-- Add the full public url as the DECAP_CONFIG_URL env variable to the picobase app (e.g. https://<your-username>.github.io/<your-repo-name>/decapconfig.yml)
-
-## Deploy to other hosts (cloudflare, netlify, vercel etc)
-
-You can follow the [Vitepress deploy docs](https://vitepress.dev/guide/deploy) for a guide on how to deploy to various other hosts.
+- Add a decap decapconfig.yml file to your repo with with your decap config (see the decapconfig.yml in this repo for a minimal config file for vitepress). Note that the backend config parts will be overridden by the custom Lumo backend so can be omitted.
+- Install the Lumo Decap app (see the [Lumo Decap](https://github.com/simonbengtsson/lumo-decap))
