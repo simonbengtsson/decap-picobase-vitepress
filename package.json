@@ -1,4 +1,5 @@
 {
+  "name": "lumo-decap-vitepress",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
