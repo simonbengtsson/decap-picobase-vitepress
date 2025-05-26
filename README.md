@@ -14,5 +14,5 @@ This is a sample repository to show how to deploy a Vitepress site on GitHub Pag
 
 ## Lumo Decap setup
 
-- Add a decap decapconfig.yml file to your repo with with your decap config (see the decapconfig.yml in this repo for a minimal config file for vitepress). Note that the backend config parts will be overridden by the custom Lumo backend so can be omitted.
+- Add a decap decapconfig.yml file to your repo with with your decap config (see the decapconfig.yml in this repo for a minimal config file for vitepress). Note that the backend name should be set to "lumo" but that the options for the backend otherwise are the same as for the official Decap Github backend (except for the repo field which will be set during Lumo setup).
 - Install the Lumo Decap app (see the [Lumo Decap](https://github.com/simonbengtsson/lumo-decap))
