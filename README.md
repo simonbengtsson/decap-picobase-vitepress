@@ -14,5 +14,5 @@ You can follow the [official Vitepress deploy guide](https://vitepress.dev/guide
 - Push your changes and if things are working you should see your site deployed to github pages (`https://<your-username>.github.io/<your-repo-name>`)
 
 ## Setting up Decap CMS on Lumobase
-- Add a `decapconfig.yml` file to the root of your website repository (see [decapconfig.yml](https://github.com/simonbengtsson/lumo-decap-vitepress/blob/main/decapconfig.yml)). This is a normal Decap config file, but you can omit the backend section since it will be overriden by a custom Lumobase backend.
+- Add a `decapconfig.yml` file to the root of your website repository (see [decapconfig.yml](https://github.com/simonbengtsson/lumo-decap-vitepress/blob/main/decapconfig.yml)). This is a normal Decap config file, but it will always use a custom Lumobase backend. You can set the same options such as branch name etc as for the official [github backend](https://decapcms.org/docs/github-backend/).
 - Install the Decap CMS app on Lumobase ([Install Decap CMS](https://lumoapps.me/dash?appUrl=https%3A%2F%2Fgithub.com%2Fsimonbengtsson%2Flumo-decap%2Freleases%2Flatest%2Fdownload%2Fapp.lumo)) and follow the setup instructions.
