@@ -9,7 +9,7 @@ This is a sample repository to show how to deploy a Vitepress site on GitHub Pag
 - Add the Github deploy workflow (see .github/workflows/deploy.yml)
 - Enable GitHub Pages in the Github repo settings
 - Update the base property in .vitepress/config.ts to match your repo name (e.g. base: /lumo-decap-vitepress/)
-- Push your changes and if things are working, you should see your site deployed to github pages (https://<your-username>.github.io/<your-repo-name>)
+- Push your changes and if things are working, you should see your site deployed to github pages (`https://<your-username>.github.io/<your-repo-name>`)
 - Optionally you can also setup a custom domain for your github pages site (see [Github docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)).
 
 ## Lumo Decap setup
