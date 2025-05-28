@@ -8,7 +8,7 @@ You can follow the [official Vitepress deploy guide](https://vitepress.dev/guide
 
 - Create and clone a Github repo
 - Init a new Vitepress project ([guide](https://vitepress.dev/guide/getting-started))
-- Update the base property in `.vitepress/config.ts` to match your repo name (e.g. `base: /lumo-decap-vitepress/`)
+- Update the base property in `.vitepress/config.ts` to match your repo name (e.g. `base: /<your-repo-name>`)
 - Add a Github deploy workflow (see `.github/workflows/deploy.yml`)
 - Enable GitHub Pages in the Github repository settings (and add a custom domain if you want)
 - Push your changes and if things are working you should see your site deployed to github pages (`https://<your-username>.github.io/<your-repo-name>`)
