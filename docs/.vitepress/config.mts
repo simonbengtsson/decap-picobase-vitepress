@@ -4,8 +4,8 @@ import { withSidebar } from "vitepress-sidebar";
 // https://vitepress.dev/reference/site-config
 export default withSidebar(
   defineConfig({
-    title: "Lumo Decap Vitepress",
-    description: "A VitePress site with Decap CMS as a Lumo app",
+    title: "Vitepress for Decap CMS on Lumobase",
+    description: "A VitePress site with Decap CMS as a Lumobase app",
     base: "/lumo-decap-vitepress/",
     srcExclude: ["README.md"],
     themeConfig: {
